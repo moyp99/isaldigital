@@ -1,0 +1,150 @@
+{
+  "nav-inicio": "Inicio",
+  "nav-servicios": "Servicios",
+  "nav-portafolio": "Portafolio",
+  "nav-contacto": "Contacto",
+  "nav-test": "Test Digitalización",
+  "h5-desarrollo-de-software": "Desarrollo de software y estrategia digital",
+  "h1-soluciones": "Estrategia digital y soluciones creativas",
+  "p-en-isal": "En ISAL queremos que encuentres la solución ideal para tu negocio. Somos un equipo multidisciplinario con conocimientos en Ingeniería de Software, Marketing Digital, Branding, Product Management, Metodologías ágiles y Transformación Digital.",
+  "btn-asesoria": "Asesoría gratuita",
+  "btn-contactenos": "Contáctenos",
+  "p-sigue-bajando": "SIGUE BAJANDO",
+  "h2-digitalizar-tu-negocio": "Digitalizar tu negocio ya no es una opción",
+  "h3-la-digitalizacion": "La digitalización y la automatización facilitan todos tus procesos.",
+  "h4-en-isal-queremos": "En ISAL queremos llevar tu negocio al mundo digital de forma eficiente.",
+  "h2-nuestros-servicios": "Nuestros servicios",
+  "h3-servicios-web": "Diseño y desarrollo web",
+  "h3-servicios-movil": "Diseño y desarrollo móvil",
+  "h3-servicios-transf": "Estrategia Digital",
+  "h3-servicios-auto": "Automatización de procesos",
+  "p-servicios-web": "Esta es nuestra especialidad. En ISAL diseñamos y desarrollamos distintos productos web. Podemos crear Landing pages, Páginas Web, Aplicaciones Web, PWA y Sistemas Web",
+  "p-servicios-movil": "Las aplicaciones móviles pueden ayudarte a optimizar tus procesos o pueden ser una idea de negocio por si misma. En ISAL podemos crear la app que siempre has soñado.",
+  "p-servicios-transf": "El objetivo de la estrategia digital es ayudarte a ahorrar costos, generar más clientes y hacer más fáciles tus procesos. En ISAL queremos ayudarte a digitalizar tu negocio de forma eficiente.",
+  "p-servicios-auto": "La mayoría de los procesos aburridos de tu negocio se pueden automatizar para que inviertas tu tiempo en los procesos que realmente necesitan de tu supervisión.",
+  "h2-metodologia": "Nuestra metodología: El pensamiento 10X.",
+  "p-metodologia": "Todo lo que hacemos en ISAL está basado en el pensamiento 10X. Se trata de una metodología inventada por Google para encontrar soluciones a todo tipo de problemas. El enfoque es abordar un problema para en lugar de mejorarlo 10%, revolucionarlo 10 veces, es decir una mejora del 1000%",
+  "p-metodologia-1": "1. Comienza desde el principio, replantea",
+  "p-metodologia-2": "2. Identifica el gran problema",
+  "p-metodologia-3": "3. Visualiza el suceso, imagina cómo funcionará tu solución",
+  "p-metodologia-4": "4. Colabora con personas. Obtén nuevos puntos de vista",
+  "p-metodologia-5": "5. Descubre tecnologías, los grandes retos con frecuencia requieren de una tecnología nueva, encuéntrala.",
+  "p-metodologia-6": "6. Toma riesgos, no temas equivocarte, el ensayo y error terminarán por dar dividendos.",
+  "h2-portafolio": "Nuestro Portafolio",
+  "h2-agenda": "Agenda tu asesoría",
+  "h2-agenda-br": "digital gratuita",
+  "p-agenda-cargando": "Estamos cargando nuestra agenda, por favor espere...",
+  "h2-contacto": "Pongámonos en contacto",
+  "p-contacto-nombre": "Nombre",
+  "p-contacto-email": "Email",
+  "p-contacto-mensaje": "Mensaje",
+  "btn-contacto": "Enviar Correo",
+  "p-sucursales": "California, EE.UU. y Querétaro, México",
+  "p-sucursales-b": "Tenemos bases en: ",
+  "p-hecho-con": "Hecho con dedicación, pasión y ❤️ por ISAL Digital",
+  "h2-alert": "Agenda tu asesoría digital GRATIS.",
+  "p-alert": "Al terminar la reunión tendrás el conocimiento y las herramientas necesarias para impulsar tu negocio. ¡Lo mejor de todo es que son herramientas gratuitas y fáciles de usar!",
+  "p-alert-name": "Nombre",
+  "ph-alert-name": "Escriba su nombre",
+  "p-alert-email": "E-mail",
+  "ph-alert-email": "Escriba su correo electrónico",
+  "error-alert-email-req": "Ingresa tu email",
+  "error-alert-email-wrong": "Ingresa una dirección email valida",
+  "btn-alert": "Enviar",
+  "h2-alert-wa": "¿Lo tuyo no es el correo?",
+  "p-alert-wa": "¡Contactanos mediante Whatsapp!",
+  "btn-alert-wa": "Contactar por WhatsApp",
+  "success-alert-h2": "¡Felicidades!",
+  "success-alert-p": "Estas a punto de impulsar tu negocio, solo te queda",
+  "success-alert-p-b": "agendar una reunión en alguno de nuestros horarios disponibles.",
+  "success-alert-p-br": "Da clic en el botón de abajo para seleccionar uno de nuestros horarios disponibles.",
+  "success-alert-btn": "Agendar un horario",
+
+  "portfolio-data": [
+    {
+      "section": "Diseño y Desarrollo web",
+      "data": [
+        {
+          "title": "Moises.tk",
+          "description": "Este es el portafolio personal de nuestro founder. El objetivo de un portafolio es resaltar la capacidad profesional de los individuos. ",
+          "technologies": "ReactJS, SCSS, Firebase",
+          "img": "https://res.cloudinary.com/dcemx7jg0/image/upload/f_auto,q_auto:eco/v1614729740/isaldigital/portfolio/moises_plqn3c.jpg",
+          "link": "https://www.moises.tk"
+        },
+        {
+          "title": "Colmena.fund",
+          "description": "Landing page para una startup. Logramos llevarla hasta el campamento nacional posible y a la final del premio Santander a la innovación empresarial.",
+          "technologies": "HTML, CSS, Bootstrap, Firebase, SASS",
+          "img": "https://res.cloudinary.com/dcemx7jg0/image/upload/f_auto,q_auto:eco/v1614729742/isaldigital/portfolio/web-Colmena_bftf0n.jpg",
+          "link": "https://www.colmena.fund"
+        },
+        
+    
+        {
+          "title": "Auremp",
+         " technologies": "React JS, NextJS, Magic, Strapi, Nodejs",
+         "description": "Ecommerce a la medida.",
+          "img": "https://res.cloudinary.com/dcemx7jg0/image/upload/c_scale,w_432/v1633028340/isaldigital/portfolio/auremp_m5mz2s.png",
+          "link": "https://auremp.com"
+        },
+       
+
+        {
+          "title": "I-Design (Offline)",
+          "description": "Página web corporativa. Esta página fue una de las primeras en la que trabajamos y fue desarrollada desde 0.  Desafortunadamente se encuentra offline",
+          "technologies": "HTML, CSS, Bootstrap, PHP, SASS",
+          "img": "https://res.cloudinary.com/dcemx7jg0/image/upload/f_auto,q_auto:eco/v1614729741/isaldigital/portfolio/web-IDesign_znfjcq.jpg",
+          "link": ""
+        },
+        {
+          "title": "Luxury (Offline)",
+          "description": "Página web promocional. Diseñada con el objetivo de conseguir más clientes y hacer reservas en línea. La página aun no esta terminada.",
+          "technologies": "HTML, CSS, Bootstrap, SASS (En progreso)",
+          "img": "https://res.cloudinary.com/dcemx7jg0/image/upload/f_auto,q_auto:eco/v1614729742/isaldigital/portfolio/web-luxury_frzexv.jpg",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "section": "Aplicaciones Web",
+      "data": [
+        {
+          "title": "Waves Music",
+          "description": "Reproductor de musica minimalista. Esta aplicación fue desarrollada con el objetivo de crear un reproductor de música sin distracciones.",
+          "technologies": "React JS, SCSS",
+          "img": "https://res.cloudinary.com/dcemx7jg0/image/upload/f_auto,q_auto:eco/v1614729741/isaldigital/portfolio/react-waves_azlr99.jpg",
+          "link": "https://waves-music-11b56.web.app/"
+        },
+        {
+          "title": "Ignite Games",
+          "description": "Aplicación para buscar videojuegos. La aplicación hace uso de apis para obtener los resultados de las busquedas",
+          "technologies": "React JS, REDUX",
+          "img": "https://res.cloudinary.com/dcemx7jg0/image/upload/f_auto,q_auto:eco/v1614729741/isaldigital/portfolio/react-ignite_mjzptl.jpg",
+          "link": "https://ignite-games-mjpg.web.app/"
+        },
+        {
+          "title": "Budget App",
+          "description": "Aplicación para crear presupuestos. Esta es una aplicación de prueba para probar las capacidades del framework Angular.",
+          "technologies": "Angular, SCSS",
+          "img": "https://res.cloudinary.com/dcemx7jg0/image/upload/v1614729740/isaldigital/portfolio/angular-budget_cvrjlp.jpg",
+          "link": "https://budget-mjpg.web.app/"
+        }
+      ]
+    },
+    {
+      "section": "Sistemas Web",
+      "data": [
+        {
+          "title": "UAQ Eats",
+          "description": "Sistema para una cafetería escolar. Mediante esta app las cafeterías pueden llevar un manejo de sus clientes, inventarios, promociones, etc.",
+          "technologies": "Django, Bootstrap",
+          "img": "https://res.cloudinary.com/dcemx7jg0/image/upload/f_auto,q_auto:eco/v1614729740/isaldigital/portfolio/django-uaqeats_f87ekx.jpg",
+          "link": "http://uaqeats.herokuapp.com/"
+        }
+      ]
+    }
+  ],
+  "head-meta-description": "Agencia de estrategia Digital y desarrollo de software en Querétaro. Páginas web y apps moviles profesionales y creativas. Automatización digital.",
+  "head-meta-title":"Agencia ISAL Estrategia Digital y Desarrollo de software",
+  "head-title":"Agencia ISAL Estrategia Digital y Desarrollo de software"
+}

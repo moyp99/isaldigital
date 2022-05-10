@@ -1,0 +1,118 @@
+.leftnav
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: auto
+    position: fixed
+    z-index: 5
+    overflow: hidden
+    background: rgba( 255, 255, 255, 0.10 )
+    box-shadow: 0 8px 32px 0 #1f43875e
+    backdrop-filter: blur( 7.0px )
+    -webkit-backdrop-filter: blur( 7.0px )
+    -webkit-border-bottom-right-radius: 5px
+    -webkit-border-bottom-left-radius: 5px
+    -moz-border-radius-bottomright: 5px
+    -moz-border-radius-bottomleft: 5px
+    border-bottom-right-radius: 5px
+    border-bottom-left-radius: 5px
+    border: 1px solid rgba( 255, 255, 255, 0.05 )
+
+    a
+        // float: left
+        display: block
+        color: #f2f2f2
+        text-align: center
+        padding: 6px 16px 0px 16px
+        height: 40px
+        text-decoration: none
+        font-size: 22px
+        transition: all 0.5s ease
+        &:hover
+            font-size: 28px
+            font-weight: 600
+
+    a.active
+        // background-color: #4CAF50
+        color: white
+
+    .icon
+        display: none
+
+.navbar-logo
+    margin: 20px
+    display: flex
+    align-items: center
+    height: 32px
+    cursor: pointer
+
+.navbar-items
+    display: flex
+    margin-right: 20px
+
+.lang-div
+    display: flex
+    margin-left: 1.5rem
+.lang
+    display: flex !important
+    height: 26px !important
+    padding: 2px !important
+    width: 50px
+    align-content: center
+    margin-right: 10px
+    p
+        font-size: 0.8rem
+        padding-left: 5px
+        margin: auto 0
+        width: 46px
+    img
+        width: 20px
+
+.lang-disabled
+    pointer-events: none
+
+    
+
+@media screen and (max-width: 600px)
+    .leftnav
+        a
+            display: none
+
+        button.icon
+            display: block
+            // background-color: red
+            margin: 14px 6px 14px 0px
+            padding: 0px
+            background-color: rgba(0, 0, 0, 0)
+            border: none
+            color: white
+            outline: none
+
+    .leftnav.responsive
+        position: fixed
+        // background-color: red
+        display: block
+        .icon
+            position: absolute
+            right: 0
+            top: 0
+            margin: 14px 26px 14px 0px
+
+        a
+            float: none
+            display: block
+            text-align: left
+
+        .navbar-items
+            display: block
+            a
+                text-align: right
+                font-size: 22px
+
+    .navbar-logo
+        margin: 20px 0px 20px 20px
+        // background-image: url('../assets/img/isal-logo.png')
+        width: 32px
+        height: 32px
+        cursor: pointer

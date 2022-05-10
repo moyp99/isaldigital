@@ -1,0 +1,33 @@
+// Mixins test
+
+@mixin cuadrado($colorFondo, $ancho: 200px){
+    height: 200px;
+    width: $ancho;
+    background-color: $colorFondo;
+}
+    
+
+.cuadrado-1{
+    @include cuadrado(red, 300px);
+}
+    
+
+.cuadrado-2{
+    @include cuadrado(blue);
+}
+    
+
+//------ end mixin test
+
+@mixin orientation($direction) { 
+
+    $orientation-landscape: "(orientation:landscape)"; 
+    $orientation-portrait: "(orientation:portrait)";
+  
+    @if $direction == landscape {
+      @media #{$orientation-landscape} { @content; } 
+    }
+    @if $direction == portrait {
+      @media #{$orientation-portrait} { @content; } 
+    }
+  } 

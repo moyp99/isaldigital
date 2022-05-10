@@ -1,0 +1,774 @@
+@import mixin.scss
+
+.text-1
+    font-size: 5vw !important
+
+.group-btns
+    display: flex
+    width: 100%
+    justify-content: flex-start
+    a
+        margin: 0px 1rem
+
+.home-1
+    position: relative
+    display: flex
+    justify-content: center
+    height: 100vh
+    flex-wrap: nowrap
+    margin-left: 2rem
+.home-1-div
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+
+    &:nth-child(1)
+        margin: 0px 0px 0px 12px
+        width: 60%
+        height: 100%
+    h5
+        margin-left: 5px
+        color: #A52E54
+    p
+        margin: 6px 10px 0px 5px
+        max-width: 1024px
+        line-height: 1.75rem
+
+    &:nth-child(2)
+        width: 40%
+        height: 100%
+        padding: 2rem
+    .gm-div
+        display: flex
+        align-items: center
+        padding: 30px 20px 0px 20px
+        img
+            width: 100%
+            height: 100%
+
+.gm-div
+  // margin-top: 50%
+    height: 60% !important
+    width: 90% !important
+
+.home-2
+    width: 100%
+    display: flex
+    flex-direction: column
+    align-content: center
+    justify-content: center
+
+    h2
+        font-size: 6vw
+        margin: 8rem 5rem 4rem 5rem
+        text-align: center
+
+    h3
+        font-size: 4vw
+        margin: 4rem 5rem 4rem 5rem
+        text-align: center
+    h4
+        font-size: 3vw
+        margin: 4rem 5rem 8rem 5rem
+        text-align: center
+
+.home-3
+    display: flex
+    position: relative
+    justify-content: center
+    height: auto
+    padding-bottom: 0rem
+    flex-wrap: nowrap
+.home-3-div
+    display: flex
+    justify-content: flex-start
+    align-items: flex-start
+    flex-wrap: wrap
+
+    &:nth-child(1)
+        margin: 0px 0px 0px 12px
+        width: 68%
+        height: 100%
+        div
+            div
+                display: flex
+                flex-wrap: wrap
+                div
+                    width: 11vw
+                    display: block
+                    text-align: center
+                    p
+                        text-align: center
+                        font-size: .8vw
+                        margin: 10px 7px
+            h2
+                margin-left: 2rem
+                padding-top: 2rem
+        h5
+            margin-left: 5px
+            color: #A52E54
+        p
+            margin: 6px 2rem 0px 2rem
+            max-width: 60vw
+            font-size: 1.4vw
+
+    &:nth-child(2)
+        width: 32%
+        height: auto
+        padding: 4rem
+    .gm-div
+        width: 100%
+        display: flex
+        align-items: center
+        padding: 30px 20px 0px 20px
+        img
+            width: 100%
+            height: 100%
+
+.home-4
+    h2
+        white-space: nowrap
+        font-size: 6vw
+        margin-left: 50%
+        transform: translateX(-50%)
+        text-align: center
+    .services-container
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+        .service-container
+            width: 40vw
+            height: 40vw
+            margin: 2rem 0rem
+            h3
+                white-space: nowrap
+                font-size: 2.4vw
+                text-align: center
+            p
+                margin: 10px 2rem
+                text-align: justify
+                font-size: 1.2vw !important
+            .service-btns
+                position: absolute
+                display: flex
+                justify-content: space-around
+                bottom: 1.5rem
+                width: 100%
+            &:last-child
+                h3
+                    white-space: nowrap
+                    font-size: 2.6vw !important
+                    text-align: center
+
+.service-img
+    width: 90%
+    height: auto
+    margin: 0px auto
+    img
+        width: 100%
+        height: 100%
+.home-5
+    width: 100%
+    height: auto
+    padding-top: 5rem
+    h2
+        white-space: nowrap
+        font-size: 6vw
+        margin-left: 50%
+        transform: translateX(-50%)
+        text-align: center
+        padding-bottom: 2rem
+    .input-divs
+
+        div
+            width: 50vw
+            display: flex
+            margin: 2rem auto
+            p
+                width: 15vw
+                font-size: 1.5vw
+            input
+                font-family: 'Montserrat', sans-serif
+                font-size: 1.2rem
+                color: white
+                width: 35vw
+                height: 3rem
+                z-index: 1 !important
+                padding: 0px 1rem
+            textarea
+
+                font-family: 'Montserrat', sans-serif
+                color: white
+                font-size: 1.2rem
+                width: 35vw
+                height: 20rem
+                z-index: 1 !important
+                padding: .5rem 1rem
+                resize: none
+    button
+        transform: translateX(-50%)
+        margin: 1rem 50%
+        white-space: nowrap
+
+.contact-div
+    width: 60vw
+    height: 80vh
+    margin: auto
+
+.portafolio
+    width: 100%
+    h2
+        white-space: nowrap
+        font-size: 6vw
+        margin-left: 50%
+        transform: translateX(-50%)
+        text-align: center
+
+    .pf-section
+        margin-bottom: 2rem
+        h3
+            text-align: center
+            font-size: 3.5vw
+        .pf-section-items
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-around
+            p
+                font-size: 1vw
+            h4
+                margin: -.8rem 1rem 0rem 1rem
+            .pf-section-item-desc
+                margin: 0 1rem
+            .pf-section-item-tech
+                margin: .5rem 1rem
+
+.pf-section-item
+    width: 27vw
+    height: 30vw
+    margin: 2rem
+    cursor: pointer
+    transition: 0.6s ease
+    &:hover
+        transform: scale3d(1.05, 1.05, 1.05)
+
+    .pf-section-item-img
+        width: 90%
+        margin: 4% auto
+        img
+            width: 100%
+
+.diary-widget
+    min-width: 320px
+    height: 720px
+    position: relative
+.h2-calendly
+    white-space: nowrap
+    font-size: 6vw
+    margin-left: 50%
+    transform: translateX(-50%)
+    text-align: center
+    margin-bottom: 0rem
+.div-de-calendly
+    position: relative
+
+.wait-calendly
+    position: absolute
+    z-index: 0
+    left: 50%
+    top: 50%
+    transform: translateX(-50%)
+
+// Scroll Down
+.scroll-container
+    position: absolute
+    width: 24px
+    height: 24px
+    top: 90%
+    left: 50%
+    margin-left: -12px
+    z-index: 2
+
+//----- termina scroll down
+
+.chevron
+    position: absolute
+    width: 28px
+    height: 8px
+    opacity: 0
+    transform: scale3d(0.5, 0.5, 0.5)
+    animation: move 3s ease-out infinite
+
+.chevron:first-child
+    animation: move 3s ease-out 1s infinite
+
+.chevron:nth-child(2)
+    animation: move 3s ease-out 2s infinite
+
+.chevron:before,
+.chevron:after
+    content: ' '
+    position: absolute
+    top: 0
+    height: 100%
+    width: 51%
+    background: rgba(255, 255, 255, 0.5)
+
+.chevron:before
+    left: 0
+    transform: skew(0deg, 30deg)
+
+.chevron:after
+    right: 0
+    width: 50%
+    transform: skew(0deg, -30deg)
+
+@keyframes move
+    25%
+        opacity: 1
+
+    33%
+        opacity: 1
+        transform: translateY(30px)
+
+    67%
+        opacity: 1
+        transform: translateY(40px)
+
+    100%
+        opacity: 0
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5)
+
+.text
+    display: block
+    margin-top: 60px
+    margin-left: -30px
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif
+    font-size: 12px
+    color: #fff
+    text-transform: uppercase
+    white-space: nowrap
+    opacity: .25
+    animation: pulse 2s linear alternate infinite
+
+@keyframes pulse
+    to
+        opacity: 1
+
+// --------- Scroll Down
+
+@media screen and (max-width: 768px)
+
+    .diary-widget
+        min-width: 320px
+        height: 940px
+        position: relative
+
+    .h2-calendly
+        white-space: nowrap
+        font-size: 9vw
+        margin-left: 50%
+        transform: translateX(-50%)
+        text-align: center
+        margin-bottom: 1.5rem
+
+    .scroll-container
+        top: 88vh
+
+    .text-1
+        font-size: 9vw !important
+        margin-left: 5px
+
+    .home-1
+        justify-content: flex-start
+        height: auto
+        flex-wrap: wrap
+        margin: 0px
+    .group-btns
+        display: flex
+        width: 100%
+        justify-content: space-evenly
+        flex-wrap: wrap
+        a
+            font-size: 5vw
+            margin: 0px 0rem
+            padding: 10px !important
+    .home-1-div
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-wrap: wrap
+
+        &:nth-child(1)
+            margin: 5rem 10px 0px 10px
+            width: 100%
+            height: auto
+            h5
+                margin-left: 5px
+                color: #A52E54
+            p
+                margin: 6px 10px 0px 5px
+                font-size: 4vw
+
+        &:nth-child(2)
+            width: 90%
+            margin: auto
+            padding-top: 5vh
+
+    .home-2
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-content: center
+        justify-content: center
+
+        h2
+            font-size: 9vw
+            margin: 10vh 2.5rem 2rem 2.5rem
+            text-align: center
+
+        h3
+            font-size: 7vw
+            margin: 7vh 2.5rem 2rem 2.5rem
+            text-align: center
+        h4
+            font-size: 5.5vw
+            margin: 7vh 2.5rem 3.5vh 2.5rem
+            text-align: center
+
+    .home-3
+        justify-content: flex-start
+        flex-wrap: wrap
+    .home-3-div
+
+        justify-content: flex-start
+        align-items: flex-start
+        flex-wrap: wrap
+
+        &:nth-child(1)
+            margin: 0px 6px 0px 6px
+            width: 100%
+            height: auto
+            div
+                div
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: space-around
+                    div
+                        width: 40vw
+                        display: block
+                        text-align: center
+                        p
+                            text-align: center
+                            font-size: 1rem
+                            margin: 10px 5px
+                h2
+                    padding-top: 2rem
+                    margin: 0px 0rem 0px .5rem
+            h5
+                margin-left: 5px
+                color: #A52E54
+            p
+                margin: 6px 10px 0px .5rem
+                max-width: 1024px
+                font-size: 4vw
+            button
+                display: flex
+                margin: 0
+        &:nth-child(2)
+            width: 100%
+            height: auto
+            padding: 1rem 4rem
+            .gm-div
+                width: 100%
+                display: flex
+                align-items: center
+                padding: 30px 20px 0px 20px
+
+    .home-4
+        h2
+            font-size: 9vw
+        .services-container
+
+            .service-container
+                width: 95vw
+                height: 100vw
+                margin: 1rem 0rem
+                h3
+                    font-size: 6vw
+                p
+                    margin: 10px 1rem
+                    font-size: 3.3vw !important
+                .service-btns
+                    a
+                        margin: 0rem 0px -10px 0px
+                        padding: 2vw !important
+                        font-size: 4vw
+                &:last-child
+                    h3
+                        font-size: 5.8vw !important
+
+    .home-5
+        width: 100%
+        height: auto
+        padding-top: 5rem
+        overflow: hidden
+        h2
+            white-space: nowrap
+            font-size: 7.5vw
+            margin-left: 50%
+            transform: translateX(-50%)
+            text-align: center
+            padding-bottom: 0rem
+        .input-divs
+
+            div
+                width: 100vw
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-around
+                margin: 2rem auto
+                p
+                    font-size: 5.5vw
+                    width: 90vw
+                    margin-bottom: .5rem
+                input
+                    font-family: 'Montserrat', sans-serif
+                    font-size: 1.2rem
+                    color: white
+                    width: 90vw
+                    height: 3rem
+                    z-index: 1 !important
+                    padding: 0px 1rem
+                textarea
+
+                    font-family: 'Montserrat', sans-serif
+                    color: white
+                    font-size: 1.2rem
+                    width: 90vw
+                    height: 20rem
+                    z-index: 1 !important
+                    padding: .5rem 1rem
+                    resize: none
+        button
+            box-sizing: content-box
+            transform: translateX(-50%)
+            margin: .5rem 50%
+            white-space: nowrap
+
+    .portafolio
+        width: 100%
+        h2
+            white-space: wrap
+            font-size: 9vw
+            margin-left: 50%
+            transform: translateX(-50%)
+            text-align: center
+
+        .pf-section
+            margin-bottom: 2rem
+            h3
+                text-align: center
+                font-size: 7.5vw
+
+            .pf-section-items
+                display: flex
+                flex-wrap: wrap
+                justify-content: space-around
+                p
+                    font-size: 2.3vh
+                h4
+                    margin: .5rem 1rem
+                .pf-section-item-desc
+                    margin: 0 1rem
+                .pf-section-item-tech
+                    margin: .5rem 1rem
+
+    .pf-section-item
+        width: 90vw
+        height: 61vh
+        overflow-y: hidden
+
+@media screen and (max-width: 1023px)
+    @include orientation(landscape)
+        .scroll-container
+            top: 80%
+
+        .home-1
+
+            justify-content: flex-start
+            height: auto
+            flex-wrap: wrap
+        .home-1-div
+
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-wrap: wrap
+
+            &:nth-child(1)
+                margin: 5rem 10px 0px 10px
+                width: 100%
+                height: auto
+                h5
+                    margin-left: 5px
+                    color: #A52E54
+                p
+                    margin: 6px 10px 0px 5px
+                .btn
+                    margin-left: 5px
+                    padding: 16px
+                    &:last-child
+                        margin-top: 1rem
+
+            &:nth-child(2)
+                width: 90%
+                margin: auto
+                padding-top: 2rem
+        .home-4
+            h2
+                font-size: 9vw
+            .services-container
+
+                .service-container
+                    width: 95vw
+                    height: 100vw
+                    margin: 1rem 0rem
+                    h3
+                        font-size: 6vw
+                    p
+                        margin: 10px 1rem
+                        font-size: 3.4vw !important
+
+                    &:last-child
+                        h3
+                            font-size: 5.8vw !important
+
+        .home-5
+            width: 100%
+            height: auto
+            padding-top: 5rem
+            overflow: hidden
+            h2
+                white-space: nowrap
+                font-size: 7.5vw
+                margin-left: 50%
+                transform: translateX(-50%)
+                text-align: center
+                padding-bottom: 0rem
+            .input-divs
+
+                div
+                    width: 100vw
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: space-around
+                    margin: 2rem auto
+                    p
+                        font-size: 3.5vw
+                        width: 90vw
+                        margin-bottom: .5rem
+                    input
+                        font-family: 'Montserrat', sans-serif
+                        font-size: 1.2rem
+                        color: white
+                        width: 90vw
+                        height: 3rem
+                        z-index: 1 !important
+                        padding: 0px 1rem
+                    textarea
+
+                        font-family: 'Montserrat', sans-serif
+                        color: white
+                        font-size: 1.2rem
+                        width: 90vw
+                        height: 20rem
+                        z-index: 1 !important
+                        padding: .5rem 1rem
+                        resize: none
+            button
+                box-sizing: content-box
+                transform: translateX(-50%)
+                margin: .5rem 50%
+                white-space: nowrap
+
+        .portafolio
+            width: 100%
+            h2
+                white-space: wrap
+                font-size: 9vw
+                margin-left: 50%
+                transform: translateX(-50%)
+                text-align: center
+
+            .pf-section
+                margin-bottom: 2rem
+                h3
+                    text-align: center
+                    font-size: 6vw
+
+                .pf-section-items
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: space-around
+                    p
+                        font-size: 1.8vw
+                    h4
+                        margin: .5rem 1rem
+                    .pf-section-item-desc
+                        margin: 0 1rem
+                    .pf-section-item-tech
+                        margin: .5rem 1rem
+
+        .pf-section-item
+            width: 40vw
+            height: auto
+            overflow-y: hidden
+        .home-3
+            justify-content: flex-start
+            flex-wrap: wrap
+            .home-3-div
+
+                justify-content: flex-start
+                align-items: flex-start
+                flex-wrap: wrap
+
+                &:nth-child(1)
+                    margin: 0px 6px 0px 6px
+                    width: 100%
+                    height: auto
+                    div
+                        div
+                            display: flex
+                            flex-wrap: wrap
+                            justify-content: space-around
+                            div
+                                width: 40vw
+                                display: block
+                                text-align: center
+                                p
+                                    text-align: center
+                                    font-size: 1rem
+                                    margin: 10px 5px
+                        h2
+                            padding-top: 2rem
+                            margin: 0px 0rem 0px .5rem
+                    h5
+                        margin-left: 5px
+                        color: #A52E54
+                    p
+                        margin: 6px 10px 0px .5rem
+                        max-width: 1024px
+                        font-size: 4vw
+                    button
+                        display: flex
+                        margin: 0
+                &:nth-child(2)
+                    width: 100%
+                    height: auto
+                    padding: 1rem 4rem
+                    .gm-div
+                        width: 100%
+                        display: flex
+                        align-items: center
+                        padding: 30px 20px 0px 20px
